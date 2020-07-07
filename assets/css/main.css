@@ -2886,7 +2886,8 @@ input, select, textarea {
 		}
 
 		.statistics p {
-			margin: 0.5em;
+			margin: 1px;
+			line-height: 1.25em;
 		}
 
 		.statistics li {
@@ -3175,11 +3176,11 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 4em 4em 1em 4em ;
+				padding: 0 0 0 0;
 			}
 
 				#header.alt {
-					margin: -2em 0 -8em 0;
+					margin: -2em 4em -8em 0;
 					font-size: 70%;
 				}
 
@@ -3189,7 +3190,7 @@ input, select, textarea {
 				}
 
 				#header.alt span {
-					font-size: 250%;
+					font-size: 200%;
 					right: -1em;
 				}
 
