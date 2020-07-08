@@ -2881,6 +2881,7 @@ input, select, textarea {
 
 		.statistics.flex-wrap {
 			flex-wrap: wrap;
+			flex-direction: row;
 			justify-content: center;
 			align-content: center;
 			line-height: 1px;
