@@ -2889,7 +2889,10 @@ input, select, textarea {
 
 		.statistics p {
 			margin: 1px;
-			line-height: 1.25em;
+			font-weight: bold;
+			line-height: 1.5em;
+			text-align: left;
+			word-wrap: break-word;
 		}
 
 		.statistics li {
@@ -2899,14 +2902,31 @@ input, select, textarea {
 			flex: 1;
 			padding: 1.25em;
 			color: #ffffff;
-			text-align: center;
+			text-align: left;
 		}
 
-		.statistics span {
-			padding: 0.5em;
-			color: #ffffff;
-			text-align: center;
+		.statistics table {
+
 		}
+
+			.statistics table tr {
+				background-color: transparent;
+			}
+
+			.statistics table td {
+				padding: 2px;
+				background-color: transparent;
+				vertical-align: middle;
+			}
+
+		.statistics span {
+			padding: 0.75em;
+			color: #ffffff;
+			margin-left: -1em;
+		}
+			.statistics span p {
+				word-wrap: break-spaces;
+			}
 
 			.statistics li.style1 {
 				background-color: #efa8b0;
@@ -2958,6 +2978,7 @@ input, select, textarea {
 
 			.statistics li .icon {
 				display: inline-block;
+				text-align: center;
 			}
 
 				.statistics li .icon:before {
