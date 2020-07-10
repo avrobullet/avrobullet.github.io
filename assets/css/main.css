@@ -3010,6 +3010,33 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 500px) {
+
+			.statistics {
+				display: block;
+				width: 25em;
+				max-width: 100%;
+				margin: 0 auto 2em auto;
+			}
+
+			statistics tr, td {
+
+			}
+
+			.statistics tr .icon {
+				font-size: 1rem;
+			}
+
+			.statistics tr .icon:before {
+				font-size: 3rem;
+			}
+
+			.statistics tr,td strong, .statistics li b {
+				font-size: 2.5em;
+			}
+
+		}
+
 /* Spotlight */
 
 	.spotlight {
